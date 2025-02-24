@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .menu-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-section h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        .menu-item {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: flex-start; /* Align items to the top of the container */
+        }
+
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .menu-item-details {
+            flex: 1;
+        }
+
+        .menu-item-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .menu-item-description {
+            color: #888;
+            font-size: smaller;
+        }
+
+        .price {
+            margin-left: auto;
+            font-weight: bold;
+            white-space: nowrap; /* Prevent price from wrapping */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cafe Menu</h1>
+
+        <div class="menu-section">
+            <h2>Sandwiches</h2>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/ef/d6/3e/efd63e55add43df3aef1bc38bdaecbee.jpg" alt="Club Sandwich">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Club Sandwich</div>
+                    <div class="menu-item-description">Turkey, bacon, lettuce, tomato, and mayo on toasted bread.</div>
+                </div>
+                <div class="price">Rs300</div>
+            </div>
+            </div>
+
+        <div class="menu-section">
+            <h2>Pizzas</h2>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/fe/2d/44/fe2d44288c73cb1685dd4090ba21f1b1.jpg" alt="Margherita Pizza">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Margherita Pizza</div>
+                    <div class="menu-item-description">Tomato sauce, mozzarella, and fresh basil.</div>
+                </div>
+                <div class="price">Rs360</div>
+            </div>
+            </div>
+
+        <div class="menu-section">
+            <h2>Burgers</h2>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/81/74/5a/81745a7b3dd0651cdef3ddc3f7c79d02.jpg" alt="Classic Burger">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Classic Burger</div>
+                    <div class="menu-item-description">Beef patty, lettuce, tomato, onion, and pickles on a bun.</div>
+                </div>
+                <div class="price">Rs260</div>
+            </div>
+            </div>
+
+        <div class="menu-section">
+            <h2>Pasta</h2>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/40/e8/8e/40e88ef594e96260d8b18ac875887bbe.jpg" alt="Spaghetti Bolognese">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Spaghetti Bolognese</div>
+                    <div class="menu-item-description">Classic spaghetti with a rich meat sauce.</div>
+                </div>
+                <div class="price">Rs350</div>
+            </div>
+            </div>
+
+        <div class="menu-section">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/25/6c/d5/256cd5d6484538b4bc710de34d533044.jpg" alt="Coffee">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Coffee</div>
+                    <div class="menu-item-description">Freshly brewed coffee.</div>
+                </div>
+                <div class="price">Rs220</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/dc/b7/cb/dcb7cb1890d9a828859cb0f753b1517a.jpg" alt="Latte">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Latte</div>
+                    <div class="menu-item-description">Espresso and steamed milk.</div>
+                </div>
+                <div class="price">Rs250</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
